@@ -1,0 +1,30 @@
+target scraper
+	domain typos
+	URL scraper from search
+	Youtube scraper
+	related domain tool
+	domain expander
+	Search Query Generator ( marketing = google.com?q=marketing etc) 	
+		google
+		bing
+		amazon
+		youtube
+		facebook
+		yahoo
+		wikipedia
+		live.com
+		linkedin
+		ebay
+		pinterest
+		instagram
+		craigslist.org
+	related keywords
+	site crawler for keywords
+	URL Structure finding
+	Alternate domain finding (jvz1)
+
+sound board
+
+weightloss cal replacement
+
+website host/cms/tracking system
