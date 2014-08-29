@@ -59,8 +59,8 @@ end
 if !(ARGV[0] == nil)
 	# Command Arguments
 	site = ARGV[0]
-	file_output_flag = ARGV[1]
-	remove_parameters_flag = ARGV[2]
+	file_output_flag = ARGV[2]
+	remove_parameters_flag = ARGV[1]
 
 	# Link collections
 	internal_links = []
@@ -107,10 +107,9 @@ if !(ARGV[0] == nil)
 	(all_links << external_domains.uniq!).flatten
 	(all_links << second_level_links.uniq!).flatten
 	all_links.uniq!
+	all_links.reject! { |link| link.nil? }
 
 	if file_output_flag == "1"
-		all_links.each { |link| puts link }
-	else
 		puts ':)'
 		puts "*******************"
 		puts "Link scraper test script"
@@ -159,8 +158,10 @@ if !(ARGV[0] == nil)
 		puts ''
 
 		second_level_links.each { |link| puts link } 
+	else
+		all_links.each { |link| puts link }
 	end
 else
 	puts 'Proper usage:'
-	puts 'ruby domain_expander.rb http://yoururlhere.com $file_output $remove_paramters'
+	puts 'ruby domain_expander.rb http://yoururlhere.com $remove_paramters $formatted_output'
 end
