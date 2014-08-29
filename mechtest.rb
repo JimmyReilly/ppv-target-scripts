@@ -19,9 +19,15 @@ def remove_protocol link
 	link
 end
 
+def remove_www link
+	link = link.split('ww.')[1] if link.include? "www"
+	link
+end
+
 def format_link link, domain, param_flag
 	link = format_relative_link link, domain if is_relative_link? link
-	link = remove_protocol link
+	#link = remove_protocol link
+	link = remove_www link
 	link = remove_paramters link if param_flag.to_i == 1
 	link
 end

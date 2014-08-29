@@ -1,30 +1,24 @@
-target scraper
-	domain typos
-	URL scraper from search
-	Youtube scraper
-	related domain tool
-	domain expander
-	Search Query Generator ( marketing = google.com?q=marketing etc) 	
-		google
-		bing
-		amazon
-		youtube
-		facebook
-		yahoo
-		wikipedia
-		live.com
-		linkedin
-		ebay
-		pinterest
-		instagram
-		craigslist.org
-	related keywords
-	site crawler for keywords
-	URL Structure finding
-	Alternate domain finding (jvz1)
+domain expander
 
-sound board
+keyword to url format generation
 
-weightloss cal replacement
+URL scraper from search
+	bing
+		scrape ads
+	google
+		scrape results
+		scrape ads
+	yahoo
+		scrape results
+		scrape ads
+	Unique results only
 
-website host/cms/tracking system
+domain typos
+
+Youtube scraper for keyword search
+
+related domain tool
+
+related keywords
+
+Alternate domain finding (jvz1)
