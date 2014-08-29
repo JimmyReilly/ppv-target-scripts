@@ -33,5 +33,9 @@ ARGV.each do |keyword|
 		puts "s=" + word
 		puts "?s=" + word
 		puts word + ".php"
+		puts word + ".html"
+		puts word + ".shtml"
+		puts word + ".asp"
+		puts word + ".aspx"
 	end
 end
