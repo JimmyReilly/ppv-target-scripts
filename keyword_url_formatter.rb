@@ -1,3 +1,6 @@
+# each input keyword should be in quotes on a new line
+# cat input.txt | xargs ruby keyword_url_formatter.rb >> output.txt
+
 def replace_white_space keyword
 	keywords = []
 	keywords << keyword.gsub(' ', '+')
