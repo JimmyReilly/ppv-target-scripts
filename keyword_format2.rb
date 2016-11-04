@@ -15,8 +15,8 @@ ARGV.each do |keyword|
 
 	keywords.each do |word| 
 		puts word
-		#puts "/" + word
-		#puts "q=" + word
-		#puts "?q=" + word
+		puts "/" + word
+		puts "q=" + word
+		puts "?q=" + word
 	end
 end
